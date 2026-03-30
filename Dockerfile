@@ -1,4 +1,4 @@
-FROM golang:1.24.2-alpine3.21 AS builder
+FROM golang:1.25.5-alpine3.22 AS builder
 WORKDIR /app
 
 # Install protobuf and protoc dependencies
